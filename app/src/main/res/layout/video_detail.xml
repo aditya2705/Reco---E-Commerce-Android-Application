@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Title goes here"
+        android:id="@+id/video_detail_title"
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor"
+        android:id="@+id/video_detail_author"
+        android:padding="5dp"
+        android:textColor="@color/DarkGray"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100,000 views"
+        android:id="@+id/video_detail_view_count"
+        android:textColor="@color/DarkGray"
+        android:padding="5dp"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/imageView3"
+        android:src="@color/DarkGray"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/video_detail_like"
+            android:src="@drawable/ic_action_good" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,000"
+            android:id="@+id/video_detail_like_count"
+            android:textColor="@color/DarkGray" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/video_detail_dislike_image"
+            android:src="@drawable/ic_action_bad"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="256"
+            android:id="@+id/video_detail_dislike_count"
+            android:textColor="@color/DarkGray" />
+    </LinearLayout>
+</LinearLayout>

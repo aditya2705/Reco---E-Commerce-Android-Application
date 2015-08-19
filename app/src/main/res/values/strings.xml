@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Reco</string>
+    <string name="search_hint">Type Here</string>
+    <string name="search_title">Search</string>
+
+    <!-- Rows -->
+    <string name="rowOne">FEED</string>
+    <string name="rowTwo">SHOP BY STORE</string>
+    <string name="rowThree">DISCOVER</string>
+    <string name="rowFour">RECOMMENDED</string>
+    <string name="rowFive">ASK</string>
+    <string name="rowSix">MY LISTS</string>
+    <string name="rowSeven">SETTINGS</string>
+
+    <!-- Mid Child Rows -->
+    <string-array name="mid_one" />
+    <string-array name="mid_two">
+        <item>Clothing</item>
+        <item>Electronics</item>
+        <item>Furniture</item>
+    </string-array>
+    <string-array name="mid_three">
+        <item>Men Fashion</item>
+        <item>Women Fashion</item>
+        <item>Electronics</item>
+        <item>Furniture</item>
+        <item>Education</item>
+    </string-array>
+
+    <string name="men">Men</string>
+    <string name="women">Women</string>
+    <string name="elx">Electronics</string>
+    <string name="fur">Furniture</string>
+    <string name="product">Products</string>
+    <string name="movie">Movies</string>
+    <string name="tvshows">T.V. Shows</string>
+
+    <string-array name="mid_four">
+        <item>Products</item>
+        <item>T.V. Shows</item>
+        <item>Movies</item>
+        <item>Videos</item>
+    </string-array>
+    <string-array name="mid_five" />
+    <string-array name="mid_six" />
+    <string-array name="mid_seven" />
+
+    <!-- expand array Actions -->
+    <string-array name="men_array">
+        <item>Clothing</item>
+        <item>Footwear</item>
+        <item>Watches</item>
+        <item>Accessories</item>
+    </string-array>
+    <string-array name="women_array">
+        <item>Clothing</item>
+        <item>Footwear</item>
+        <item>Watches</item>
+        <item>Accessories</item>
+    </string-array>
+    <string-array name="electronics_array">
+        <item>Mobiles and Tablets</item>
+        <item>Computers and Accesories</item>
+        <item>Home and Kitchen</item>
+        <item>Miscellaneous</item>
+    </string-array>
+    <string-array name="furniture_array">
+        <item>Chairs</item>
+        <item>Tables</item>
+        <item>Cupboards</item>
+        <item>Miscellaneous</item>
+    </string-array>
+    <string-array name="education_array" />
+    <string-array name="products_array" />
+    <string-array name="shows_array" />
+    <string-array name="movies_array">
+        <item>Inception</item>
+        <item>Shutter Island</item>
+        <item>Wolf of Wall Street</item>
+        <item>Shawshank Redemption</item>
+    </string-array>
+    <string-array name="men_clothing_array">
+        <item>T-Shirts</item>
+        <item>Shirts</item>
+        <item>Jeans</item>
+        <item>Hoodies</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_screen_slide">Screen Slide</string>
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+        Ipsum</string>
+
+    <!-- Actions -->
+    <string name="action_remove_item">Remove item</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Media Controls</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+
+</resources>

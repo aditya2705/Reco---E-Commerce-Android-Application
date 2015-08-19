@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\aditya_alpha\Dropbox\Reco\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-f659b28c48693fa937ccd67366272001bc76232e.jar"
+        jar="C:\Users\aditya_alpha\Desktop\adt-bundle-windows-x86_64-20131030\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\aditya_alpha\Dropbox\Reco\app\build\intermediates\pre-dexed\debug\classes-38a7300d7af400c45170f8e7176d2c6c17fd0b34.jar"
+        jar="C:\Users\aditya_alpha\Dropbox\Reco\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Users\aditya_alpha\Dropbox\Reco\app\build\intermediates\pre-dexed\debug\classes-8cc7e6cd6abb4ca9f2b940055bbea4f59a377745.jar"
+        jar="C:\Users\aditya_alpha\Dropbox\Reco\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6"/>
+
+</pre-dex-items>

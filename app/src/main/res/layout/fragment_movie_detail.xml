@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dialog_movie_item_click" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000">
+
+        <ScrollView
+            android:id="@+id/scroll_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/movie_timing"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+
+                    android:padding="18dip"
+                    android:textColor="#ffffffff"
+
+                    android:text="Movie Timings"
+                    android:textSize="20sp"
+
+                    android:layout_centerHorizontal="true" />
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/ic_launcher"
+                    android:layout_below="@+id/movie_timing"
+                    android:layout_centerHorizontal="true" />
+
+
+                <RelativeLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView"
+                    >
+
+                    <TextView
+                        android:id="@+id/movie_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+
+                        android:padding="18dip"
+                        android:background="#AA000000"
+                        android:textColor="#ffffffff"
+
+                        android:text="Movie Name"
+                        android:textSize="20sp"
+
+                        android:layout_centerHorizontal="true" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentRight="true">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:src="@drawable/abc_ic_cab_done_holo_dark"
+                            android:clickable="true"
+                            android:paddingRight="15dp"
+                            android:paddingTop="12dp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:src="@drawable/abc_ic_clear"
+                            android:clickable="true"
+                            android:paddingRight="15dp"
+                            android:paddingTop="12dp"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:id="@+id/movie_description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView"
+                    android:padding="7dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefjksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefjksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefjksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefjksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefjksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefjksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefjksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefjksjdn EKJkenEFNEKN Ad sg s rg sdf sef sef
+                    sfesesERH YJ EYT EYJ  efewef wefaefae fad aregare avaref WEG ef
+                    WEFwgeRG rf sdfSDFk sdhWEFHIwef hskdjfaksdjcnkasd sdfSIFJoesf joWE Fw
+                     efkSKFefj"
+                    android:textColor="#fff"
+                    />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>
